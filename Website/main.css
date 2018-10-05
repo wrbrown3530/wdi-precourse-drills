@@ -1,0 +1,63 @@
+/* B O D Y
+-------------------------*/
+body{
+background-color: orange;
+}
+
+/* W R A P P E R
+-------------------------*/
+#wrapper{
+width: 800px;
+margin: 0 auto 0 auto; }
+/* H E A D E R
+-------------------------*/
+header{
+width: 800px;
+height: 100px;
+background-image: url("fire.jpg");  }
+
+/* N A V B A R
+------------------------*/
+#bob {
+ width: auto;
+ height: 30px;
+ background-color: purple;
+ margin: 0;  }
+
+ #bob li{
+display: inline;
+margin: 5px;
+float: right;
+padding-right: 20px;
+color: white;
+ }
+
+ #bob a{
+   color: white;
+   text-decoration: none;
+ }
+
+
+/* C O N T E N T
+------------------------*/
+#content{
+width: 800px;
+height: 500px;
+background-color: white;}
+
+#contentTxt{
+margin: 0;
+padding: 20px 0 0 20px
+}
+
+#hockey{
+  margin: 0;
+  padding: 100px 0 0 20px
+}
+
+/* F O O T E R
+-----------------------*/
+footer{
+width: 800px;
+height: 30px;
+background-color: purple; }
